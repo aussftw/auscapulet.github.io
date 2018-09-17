@@ -1,0 +1,48 @@
+body {
+	font-family: 'Indie Flower', cursive;
+	background-image: url("065header.jpg");
+	text-align: center;
+	background-color: white;
+	background-size: cover;
+    height: 100%;
+}
+
+h1 {
+	color: white;
+}
+
+.btn-primary:hover {
+  background-color: #6868c4;
+  border-color: #6868c4;
+  border-width: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #dfe0e8;
+  border-color: #c4c368; 
+}
+
+.btn-lg {
+  padding: 1rem 2rem; 
+}
+
+.btn {
+ font-weight: 800;
+ text-transform: uppercase;
+ border-radius: 300px;
+ font-family: 'Indie Flower', cursive;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #6868c4; 
+}
+
+.container, hr {
+	display: flex;
+	margin: 400px;
+	justify-content:center;
+	
+}
